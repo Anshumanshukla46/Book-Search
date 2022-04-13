@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="12sp"
+        android:paddingTop="12sp"
+        android:paddingBottom="12sp"
+        android:text="@string/enter_any_book"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="28sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/entered_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textLongMessage"
+        android:paddingStart="12sp"
+        android:paddingLeft="12sp"
+        android:paddingTop="14sp"
+        android:paddingRight="12sp" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/gray"
+        android:onClick="searchBook"
+        android:text="@string/search"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="15sp"
+        android:paddingTop="12sp"
+        android:paddingBottom="12sp"
+        android:textSize="28sp"
+        tools:ignore="RtlSymmetry"
+        tools:text="Title : " />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="15sp"
+        android:paddingTop="12sp"
+        android:paddingBottom="12sp"
+        android:textSize="28sp"
+        tools:ignore="RtlSymmetry"
+        tools:text="Author : " />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Book Search</string>
+    <string name="enter_any_book">Enter any book title or first three letter of the book</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading ..</string>
+
+</resources>
